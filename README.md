@@ -13,7 +13,7 @@ Raspberry Pi 4Bを使用して、お気に入りのグミ（ツブグミ、カ�
 </p>
 
 <p align="center">
-  <img src="docs/images/figure6.ong" alt="No　date" width="300" height="300">
+  <img src="docs/images/figure6.png" alt="No　date" width="300" height="300">
 </p>
 
 検出結果は以下の通り。
