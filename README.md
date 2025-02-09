@@ -12,11 +12,15 @@ Raspberry Pi 4Bを使用して、お気に入りのグミ（ツブグミ、カ�
   <img src="docs/images/figure1.jpg" alt="No　date" width="300" height="300">
 </p>
 
+<p align="center">
+  <img src="docs/images/figure6.ong" alt="No　date" width="300" height="300">
+</p>
+
 検出結果は以下の通り。
 
 左上：二つ以上検出した場合
 
-右上：検出しなかった場合
+右上：何も検出しなかった場合
 
 左下：ツブグミを検出した場合
 
