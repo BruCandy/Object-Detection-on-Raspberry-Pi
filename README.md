@@ -12,6 +12,8 @@ Raspberry Pi 4Bを使用して、お気に入りのグミ（ツブグミ、カ�
   <img src="docs/images/figure1.jpg" alt="No　date" width="300" height="300">
 </p>
 
+検出器は以下のように使用した。白い台上にグミを置き、上からwebカメラで画像を撮った。
+
 <p align="center">
   <img src="docs/images/figure6.png" alt="No　date" width="300" height="300">
 </p>
