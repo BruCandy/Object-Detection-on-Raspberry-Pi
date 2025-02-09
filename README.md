@@ -2,7 +2,7 @@
 
 ## 解説
 
-Raspberry Pi 4Bを使用して、お気に入りのグミ（ツブグミ、カムカムレモン）を検出し、LCDモニターに検出したグミの名前を表示した。
+Raspberry Pi 4Bを使用して、お気に入りのグミ（ツブグミ、かむかむレモン）を検出し、LCDモニターに検出したグミの名前を表示した。
 
 ## 結果
 
@@ -12,7 +12,15 @@ Raspberry Pi 4Bを使用して、お気に入りのグミ（ツブグミ、カ�
   <img src="docs/images/figure1.jpg" alt="No　date" width="300" height="300">
 </p>
 
-検出結果は以下の通りで、
+検出結果は以下の通り。
+
+左上：二つ以上検出した場合
+
+右上：検出しなかった場合
+
+左下：かむかむレモンを検出した場合
+
+右下：ツブグミを検出した場合
 
 <p align="center">
   <img src="docs/images/figure2.jpg" alt="No　date" width="300" height="300">
