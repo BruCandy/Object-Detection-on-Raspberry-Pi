@@ -1,32 +1,48 @@
 # Object-Detection-on-Raspberry-Pi
 
-## 解説
+このプロジェクトは、**Raspberry Pi 4B** を使用し、**ツブグミ**と**カムカムレモン**を検出してLCDモニターに表示する物体検出プロジェクトです。
 
-Raspberry Pi 4Bを使用して、お気に入りのグミ（ツブグミ、カムカムレモン）を検出し、LCDモニターに検出したグミの名前を表示した。
+## 準備
+- Raspberry Pi 4B に PyTorch をインストールする。
+- `.env`ファイルを作成し、このプロジェクトを格納しているパス以下のように記述する。
+  ```bash
+  URL='/home/pi/your_project_path'
 
-## 結果
+## ファイル構成
+このプロジェクトの主要なディレクトリとファイルの構成について説明します。
 
-左側のスイッチで初期化をし、右側のスイッチで画像を撮る。Loadingの最中はLEDが点灯するようにした。
+- `docs/images` : 実行結果などの画像を格納
+- `data/` : 検出器のテストで使用する画像を格納
+- `models/` : 学習済みモデル（SSDモデル）
+- `LCD.py` : LCDの制御用スクリプト
+- `run.py` : メイン実行スクリプト
+- `test.py` : モデルの動作確認用スクリプト
+
+## 実装の概要
+
+- 左のスイッチでシステムを初期化
+- 右のスイッチで画像を撮影
+- 処理中はLEDが点灯
 
 <p align="center">
   <img src="docs/images/figure1.jpg" alt="No　date" width="300" height="300">
 </p>
 
-検出器は以下のように使用した。白い台上にグミを置き、上からwebカメラで画像を撮った。
-
 <p align="center">
   <img src="docs/images/figure6.png" alt="No　date" width="300" height="300">
 </p>
 
-検出結果は以下の通り。
+## 検出結果の例
 
-左上：二つ以上検出した場合
+検出結果は以下の通りです。
 
-右上：何も検出しなかった場合
+- 左上：二つ以上検出した場合
 
-左下：ツブグミを検出した場合
+- 右上：何も検出しなかった場合
 
-右下：カムカムレモンを検出した場合
+- 左下：ツブグミを検出した場合
+
+- 右下：カムカムレモンを検出した場合
 
 <p align="center">
   <img src="docs/images/figure2.jpg" alt="No　date" width="300" height="300">
@@ -36,3 +52,8 @@ Raspberry Pi 4Bを使用して、お気に入りのグミ（ツブグミ、カ�
   <img src="docs/images/figure4.jpg" alt="No　date" width="300" height="300">
   <img src="docs/images/figure5.jpg" alt="No　date" width="300" height="300">
 </p>
+
+## 参考
+このプロジェクトは以下の本を参考に進めました。
+- 「物体検出とGAN、オートエンコーダー、画像処理入門 PyTorch/TensorFlow2による発展的・実装ディープラーニング」
+- 「ラズパイ5対応 Raspberry Piで学ぶ電子工作」
