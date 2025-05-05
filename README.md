@@ -1,6 +1,6 @@
 # Object-Detection-on-Raspberry-Pi
 
-このプロジェクトは、**Raspberry Pi 4B** を使用し、**ツブグミ**と**カムカムレモン**を検出してLCDモニターに表示する物体検出プロジェクトです。
+このプロジェクトは、**Raspberry Pi 4B** を使用し、**ツブグミ**と**カムカムレモン**を検出してLCDモニターに表示する物体検出のプロジェクトです。
 
 ## 準備
 - Raspberry Pi 4B に PyTorch をインストールする。
